@@ -12,3 +12,15 @@ This project utilizes TensorFlow and Keras to perform analysis on the Seattle Ho
 3. Enhance client satisfaction.
 4. Gain insights into the housing market.
 5. Gain a competitive edge in the industry.
+
+## Expected Outcome:
+The expected outcome is to improve price predictions, tailor pricing strategies based on market segments, enhance client satisfaction, gain market insights, and achieve a competitive edge.
+
+## Elbow Plot Analysis:
+   - Using the Elbow Plot technique to determine the optimal number of clusters for customer segmentation.
+   - Applying the selected clustering algorithm for various cluster numbers and plot the corresponding sum of squared distances.
+   - Identifying the elbow point where the rate of decrease in the sum of squared distances significantly diminishes.
+
+     ![g1](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/cdebfb4b-a4fb-47f4-83c2-a41b881db9c4)
+     
+-  The inertia plot does not have a very pronounced elbow at any number, but the graph seems to level off at 4 to 5 clusters. 
