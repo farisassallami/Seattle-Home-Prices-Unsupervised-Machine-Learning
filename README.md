@@ -31,4 +31,17 @@ The expected outcome is to improve price predictions, tailor pricing strategies 
 
    ![g2](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/8d42653e-8acd-4c5f-924c-ba54c4bcfbfb)
 
-   - The graph shows that 4 or 5 would be good candidates for the number of clusters since it has they have the highest Silhouette Scores, however 5 is slightly higher than 4, so we will select 5 clusters.
+   - The graph shows that 4 or 5 would be good candidates for the number of clusters since it has they have the highest Silhouette Scores, so we will select 4 clusters.
+
+## Clusters of House Sales visualizations
+
+### Sales Price vs Total Square Footage
+![g3](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/666bcc8a-c9c9-4993-93d8-62b6b89d318e)
+
+We can see the higher total square footage on the property tends to sell for more.
+
+### Sales Price vs Year Built
+![g4](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/7a785a52-24ba-4882-a0d2-6ecfbb1d596e)
+
+We can see that the newer the house is the more the property sells fore.
+
