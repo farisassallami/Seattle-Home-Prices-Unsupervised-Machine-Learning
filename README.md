@@ -23,4 +23,12 @@ The expected outcome is to improve price predictions, tailor pricing strategies 
 
      ![g1](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/cdebfb4b-a4fb-47f4-83c2-a41b881db9c4)
      
--  The inertia plot does not have a very pronounced elbow at any number, but the graph seems to level off at 4 to 5 clusters. 
+-  The inertia plot does not have a very pronounced elbow at any number, but the graph seems to bend at 4 to 5 clusters.
+
+## Silhouette Score Evaluation:
+   - We will Calculate the Silhouette Score for each clustering solution.
+   - We will Compare the scores to determine the clustering solution that maximizes the separation between clusters while maintaining their compactness.
+
+   ![g2](https://github.com/farisassallami/Seattle-Home-Prices-Unsupervised-Machine-Learning/assets/111199631/8d42653e-8acd-4c5f-924c-ba54c4bcfbfb)
+
+   - The graph shows that 4 or 5 would be good candidates for the number of clusters since it has they have the highest Silhouette Scores, however 5 is slightly higher than 4, so we will select 5 clusters.
